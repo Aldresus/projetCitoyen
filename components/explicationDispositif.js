@@ -3,7 +3,7 @@ import MoneyCollectionIllustration from "@/assets/moneyCollectionIllustration";
 
 export default function ExplicationDispositif() {
   return (
-    <div className="flex h-full text-center justify-center pt-40 snap-mandatory snap-center">
+    <div className="flex h-full text-center justify-center pt-20 snap-mandatory snap-center">
       <div className="w-full h-full">
         <h2 className="text-7xl font-bold text-indigo-600">
           Comment ça marche ?
