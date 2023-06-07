@@ -8,7 +8,7 @@ export default function ExplicationDispositif() {
           Comment ça marche ?
         </h2>
         <p className="text-lg leading-relaxed m-4 text-gray-600">
-          trouver une phrase d'accroche
+          trouver une phrase d&#39;accroche
         </p>
         <Button className="">Faire un don</Button>
       </div>
