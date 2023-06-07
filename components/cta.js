@@ -8,7 +8,9 @@ export default function CTA() {
         <p className="text-lg leading-relaxed m-4 text-gray-600">
           trouver une phrase d&#39;accroche
         </p>
-        <Button className="">Faire un don</Button>
+        <form method="POST" action="/api/checkout_sessions">
+          <Button className="">Faire un don</Button>
+        </form>
       </div>
     </div>
   );
