@@ -9,7 +9,7 @@ const MyApp = ({ Component, pageProps }) => {
   return (
     <div id="_app" className={font.className}>
       <Component {...pageProps} />
-      <div className="fixed bottom-4 right-4 w-20 h-20">
+      <div className="fixed bottom-4 right-6 w-20 h-20">
         <CesiSVG />
       </div>
     </div>

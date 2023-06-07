@@ -46,7 +46,7 @@ export default function MoneyCollectionIllustration() {
               y="151.86"
               width="92.14"
               height="16.96"
-              style={{ fill: "#cab", mixBlendModed: "multiply" }}
+              style={{ fill: "#cab", mixBlendMode: "multiply" }}
             />
             <rect
               x="73.28"
