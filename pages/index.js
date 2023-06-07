@@ -1,6 +1,4 @@
 import CTA from "@/components/cta";
-import Test from "@/components/test";
-import { Fragment } from "react";
 import PresentationProjetCitoyen from "@/components/presentationProjetCitoyen";
 import ExplicationDispositif from "@/components/explicationDispositif";
 
@@ -10,7 +8,7 @@ export default function Home() {
       <CTA />
       <PresentationProjetCitoyen />
       <ExplicationDispositif />
-      <Test></Test>
+      {/*<Test></Test>*/}
     </div>
   );
 }
