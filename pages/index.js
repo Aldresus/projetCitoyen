@@ -37,7 +37,7 @@ export default function Home() {
       });
   }, []);
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 overflow-y-hidden">
       <div className=" h-screen w-full lg:snap-y lg:snap-mandatory overflow-y-scroll">
         <CTA />
         <PresentationProjetCitoyen />
