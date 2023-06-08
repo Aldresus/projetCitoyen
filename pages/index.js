@@ -22,12 +22,12 @@ export function nFormatter(num) {
       return num >= item.value;
     });
   return item
-    ? (num / item.value).toFixed(1).replace(rx, "$1") + item.symbol
+    ? (num / item.value).toFixed(2).replace(rx, "$1") + item.symbol
     : "0";
 }
 
 export default function Home() {
-  let [balance, setBalance] = useState(0);
+  let [balance, setBalance] = useState("0");
 
   useEffect(() => {
     fetch("/api/balance")
@@ -37,14 +37,15 @@ export default function Home() {
       });
   }, []);
   return (
-    <div>
-      <div className="bg-gray-100 h-screen w-full snap-y snap-mandatory overflow-y-scroll">
+    <div className="bg-gray-100">
+      <div className=" h-screen w-full lg:snap-y lg:snap-mandatory overflow-y-scroll">
         <CTA />
         <PresentationProjetCitoyen />
         <ExplicationDispositif />
+        <div className="lg:hidden h-32"></div>
         {/*<Test></Test>*/}
       </div>
-      <div className="fixed left-2 bottom-2">
+      <div className="fixed left-2 bottom-2 glassmorphism p-4">
         <h1 className="text-xl">
           <Emphasis>{balance}€ récoltés</Emphasis>
         </h1>{" "}

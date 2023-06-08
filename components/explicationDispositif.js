@@ -1,34 +1,32 @@
 import CollectIllustration from "@/assets/collectIllustration";
 import MoneyCollectionIllustration from "@/assets/moneyCollectionIllustration";
+import Balancer from "react-wrap-balancer";
 
 export default function ExplicationDispositif() {
   return (
-    <div className="flex h-full text-center justify-center pt-20 snap-mandatory snap-center">
-      <div className="w-full h-full">
-        <h2 className="text-7xl font-bold text-indigo-600">
-          Comment ça marche ?
+    <div className="flex lg:h-full text-center justify-center pt-20 snap-center">
+      <div className="w-full lg:h-full">
+        <h2 className="text-4xl px-2 lg:text-7xl font-bold text-indigo-600">
+          <Balancer>Comment ça marche ?</Balancer>
         </h2>
         <p className="text-lg leading-relaxed m-4 text-gray-600 ">
-          Vous pouvez participer de deux manières :
+          <Balancer>Vous pouvez participer de deux manières :</Balancer>
         </p>
-        <div className="relative w-full grid grid-cols-2 divide-x text-indigo-600 font-medium text-xl top-32">
+        <div className="relative w-full grid grid-cols-1 lg:grid-cols-2 lg:divide-x text-indigo-600 font-medium text-xl">
           <div className="flex items-center flex-col">
             <div className="w-72 h-96">
               <MoneyCollectionIllustration />
             </div>
-            <div className="">Don financier depuis ce site</div>
+            <Balancer>Don financier depuis ce site</Balancer>
           </div>
 
           <div className="flex items-center flex-col">
             <div className="w-80 h-96">
               <CollectIllustration />
             </div>
-            <div className="">
-              Don de vetement, objet, etc dans un de nos bacs
-            </div>
+            <Balancer>Don de vetement, objet, etc dans un de nos bacs</Balancer>
           </div>
         </div>
-        <div className="flex justify-around w-full items-center text-indigo-600 font-medium text-lg"></div>
       </div>
     </div>
   );
