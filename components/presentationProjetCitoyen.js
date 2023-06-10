@@ -29,15 +29,22 @@ export default function PresentationProjetCitoyen() {
           <h2 className="text-4xl px-2 lg:text-7xl font-bold text-indigo-600">
             Emmaus
           </h2>
-          <p className="text-lg leading-relaxed m-4 text-gray-600">
+          <div className="text-lg leading-relaxed m-4 text-gray-600">
             <Balancer>
-              bla bla bla <Emphasis>super asso</Emphasis> bla bla bla du coup{" "}
-              <Emphasis>créee par labbé Pierre </Emphasis> bla bla
-              blblablablablablablablablablablaa bla bla bla blabla blabla blabla
-              blabla blabla blabla blabla blabla blabla blabla blabla blabla
-              blabla bla <Emphasis>contre la pauvreté et lexclusion</Emphasis>
+              <p>
+                <Emphasis>Emmaüs</Emphasis>, fondé en <Emphasis>1949</Emphasis>{" "}
+                par l&#39;<Emphasis>Abbé Pierre</Emphasis>, lutte contre la
+                pauvreté, l&#39;exclusion sociale et le gaspillage en
+                récupérant, réparant et revendant des objets d&#39;occasion de
+                manière solidaire.
+              </p>
+              <p>
+                Votre don donne une seconde vie aux objets, soutient les
+                personnes en difficulté et promeut une société inclusive pour
+                tous.
+              </p>
             </Balancer>
-          </p>
+          </div>
         </div>
       </div>
     </div>
