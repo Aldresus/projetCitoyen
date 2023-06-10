@@ -3,8 +3,8 @@ import Balancer from "react-wrap-balancer";
 
 export default function PresentationProjetCitoyen() {
   return (
-    <div className="lg:h-screen snap-center flex  text-center justify-center flex-col">
-      <div className="flex pt-20  lg:h-1/2">
+    <div className="lg:h-screen snap-center flex text-center justify-center items-center flex-col">
+      <div className="flex py-24">
         <div className="w-full">
           <h2 className="text-4xl px-2 lg:text-7xl font-bold text-indigo-600">
             Projet citoyen
@@ -38,7 +38,7 @@ export default function PresentationProjetCitoyen() {
           </div>
         </div>
       </div>
-      <div className="flex pt-10 lg:h-1/2">
+      <div className="flex py-24">
         <div className="w-full">
           <h2 className="text-4xl px-2 lg:text-7xl font-bold text-indigo-600">
             Emmaus
