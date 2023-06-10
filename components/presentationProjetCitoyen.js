@@ -9,19 +9,33 @@ export default function PresentationProjetCitoyen() {
           <h2 className="text-4xl px-2 lg:text-7xl font-bold text-indigo-600">
             Projet citoyen
           </h2>
-          <p className="text-lg leading-relaxed m-4 text-gray-600">
+          <div className="text-lg leading-relaxed m-4 text-gray-600">
             <Balancer>
-              bla bla bla{" "}
-              <Emphasis>un ingé doit être utile pour la société</Emphasis> bla
-              bla bla du coup{" "}
-              <Emphasis>
-                on doit faire un truc pour se rendre utile en A3{" "}
-              </Emphasis>{" "}
-              bla bla bla bla bla bla blabla blabla blabla blabla blabla blabla
-              blabla blabla blabla blabla blabla blabla blabla bla{" "}
-              <Emphasis>bullshit marketing</Emphasis>
+              <p>
+                Avant d&#39;être ingénieurs, nous sommes avant tout des{" "}
+                <Emphasis>citoyens responsables</Emphasis>. Il est de notre
+                devoir de contribuer à la{" "}
+                <Emphasis>résolution des problèmes sociétaux</Emphasis> et de
+                participer activement à la{" "}
+                <Emphasis>construction d&#39;une société meilleure</Emphasis>.
+              </p>{" "}
+              <p>
+                C&#39;est dans cet esprit que le CESI nous a confié la{" "}
+                <Emphasis>réalisation d&#39;un projet citoyen</Emphasis>, et
+                nous avons choisi{" "}
+                <Emphasis>
+                  d&#39;organiser une collecte pour venir en aide à ceux dans le
+                  besoin
+                </Emphasis>
+                . La réalisation d&#39;un projet citoyen nous offre une occasion
+                unique de faire une <Emphasis>différence positive</Emphasis>{" "}
+                dans notre communauté. En mettant nos compétences et nos
+                ressources au service d&#39;une cause qui nous tient à cœur,
+                nous pouvons apporter des solutions concrètes aux défis qui se
+                présentent à nous.
+              </p>
             </Balancer>
-          </p>
+          </div>
         </div>
       </div>
       <div className="flex pt-10 lg:h-1/2">
@@ -39,9 +53,9 @@ export default function PresentationProjetCitoyen() {
                 manière solidaire.
               </p>
               <p>
-                Votre don donne une seconde vie aux objets, soutient les
-                personnes en difficulté et promeut une société inclusive pour
-                tous.
+                Votre don donne une <Emphasis>seconde vie aux objets</Emphasis>,{" "}
+                <Emphasis>soutient les personnes en difficulté</Emphasis> et{" "}
+                <Emphasis>promeut une société inclusive</Emphasis> pour tous.
               </p>
             </Balancer>
           </div>
