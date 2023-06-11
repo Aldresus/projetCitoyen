@@ -1,6 +1,11 @@
+import Link from "next/link";
+
 export default function MentionsLegales() {
   return (
     <div className="bg-gray-100 h-screen w-full snap-y snap-mandatory overflow-y-scroll">
+      <Link href="/" className="p-2 bottom-16 left-6 fixed glassmorphism_white">
+        Retour
+      </Link>
       <div className="flex h-full text-center justify-center pt-20 snap-mandatory snap-center">
         <div className="w-full h-full">
           <h2 className="text-7xl font-bold text-indigo-600">
