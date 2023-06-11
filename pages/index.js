@@ -1,6 +1,7 @@
 import CTA from "@/components/cta";
 import PresentationProjetCitoyen from "@/components/presentationProjetCitoyen";
 import ExplicationDispositif from "@/components/explicationDispositif";
+import ExplicationProcess from "@/components/explicationProcess";
 
 export function nFormatter(num) {
   if (!num) return "0";
@@ -32,6 +33,7 @@ export default function Home() {
         <CTA />
         <PresentationProjetCitoyen />
         <ExplicationDispositif />
+        <ExplicationProcess />
         <div className="lg:hidden h-32"></div>
         {/*<Test></Test>*/}
       </div>

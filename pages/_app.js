@@ -24,7 +24,18 @@ const MyApp = ({ Component, pageProps }) => {
       <div className="fixed bottom-4 right-6 w-20 h-20">
         <CesiSVG />
       </div>
-      <div className="fixed bottom-4 left-6 glassmorphism p-2">
+      <div
+        className="fixed
+            bottom-4 left-1/2 -translate-x-1/2 glassmorphism p-2"
+      >
+        <p>
+          <Emphasis>
+            Au vu de notre mode de fonctionnement, les dons ne sont pas
+            déductibles des impôts.
+          </Emphasis>
+        </p>
+      </div>
+      <div className="fixed bottom-4 glassmorphism p-2">
         <h1 className="text-xl">
           <Emphasis>{balance}€ récoltés</Emphasis>
         </h1>
