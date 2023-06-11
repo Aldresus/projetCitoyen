@@ -25,8 +25,8 @@ const MyApp = ({ Component, pageProps }) => {
         <CesiSVG />
       </div>
       <div
-        className="fixed
-            bottom-4 left-1/2 -translate-x-1/2 glassmorphism p-2"
+        className="fixed top-3
+            lg:bottom-4 lg:left-1/2 lg:-translate-x-1/2 lg:top-auto glassmorphism p-2 m-1"
       >
         <p>
           <Emphasis>
@@ -35,7 +35,7 @@ const MyApp = ({ Component, pageProps }) => {
           </Emphasis>
         </p>
       </div>
-      <div className="fixed bottom-4 glassmorphism p-2">
+      <div className="fixed bottom-4 left-6 glassmorphism p-2">
         <h1 className="text-xl">
           <Emphasis>{balance}€ récoltés</Emphasis>
         </h1>
