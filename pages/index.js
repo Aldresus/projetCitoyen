@@ -55,7 +55,7 @@ export default function Home() {
               Votre paiement à bien été annulé.
             </Toast.Description>
           </Toast.Root>
-          <Toast.Viewport className="absolute top-3 right-96 left-96"></Toast.Viewport>
+          <Toast.Viewport className="absolute top-24 lg:right-96 lg:left-96"></Toast.Viewport>
         </Toast.Provider>
         <CTA />
         <PresentationProjetCitoyen />
