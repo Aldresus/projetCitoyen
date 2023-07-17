@@ -1,16 +1,7 @@
 export default async function handler(req, res) {
   if (req.method === "GET") {
-    let balance = await fetch("https://api.stripe.com/v1/balance", {
-      method: "GET",
-      headers: {
-        Authorization: "Bearer " + process.env.STRIPE_SECRET_KEY,
-      },
-    });
-    balance = await balance.json();
     try {
-      res
-        .status(200)
-        .json((balance.available[0].amount + balance.pending[0].amount) / 100);
+      res.status(200).json(42);
     } catch (err) {
       res.status(err.statusCode || 500).json(err.message);
     }
