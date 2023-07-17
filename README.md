@@ -1,3 +1,8 @@
+Website for a school "citizenship project", for which we did a fundraising for Emmaüs. The website is used to explain our project and receive financial donations using Stripe.
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
